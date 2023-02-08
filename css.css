@@ -1,0 +1,56 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(18, 18, 18);
+    display: flex;
+    flex-wrap: wrap;
+}
+.block {
+    background-color: rgb(41, 41, 41);
+    border-radius: 3px;
+    height: 1.5rem;
+    width: 1.5rem;
+    margin:2px;
+    overflow: hidden;
+}
+.red{
+    background-color: red;
+    box-shadow: 0px 0px 29px 7px red;
+}
+.blue{
+    background-color: blue;
+    box-shadow: 0px 0px 29px 7px blue;
+}
+.lightblue{
+    background-color: lightcoral;
+    box-shadow: 0px 0px 29px 7px lightcoral;
+}
+.yellow{
+    background-color: yellow;
+    box-shadow: 0px 0px 29px 7px yellow;
+}
+.purple{
+    background-color: purple;
+    box-shadow: 0px 0px 29px 7px purple;
+}
+.orange{
+    background-color: orange;
+    box-shadow: 0px 0px 29px 7px orange;
+}
+.lightgreen{
+    background-color: lightgreen;
+    box-shadow: 0px 0px 29px 7px lightgreen;
+}
+.green{
+    background-color: green;
+    box-shadow: 0px 0px 29px 7px green;
+}
+
+
+.transition{
+    transition: background-color 2s ease-out ;
+    
+}
